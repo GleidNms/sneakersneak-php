@@ -1,0 +1,88 @@
+.js-flex{
+  display: flex;
+    justify-content: center;
+}
+
+.js-slider {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.js-photos {
+  position: absolute;
+  width: 1500px;
+  height: 300px;
+  left: 0;
+  display: flex;
+  transition: left 0.3s ease-out;
+}
+
+.js-photo {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex: none;
+  color: white;
+  font-size: 2em;
+}
+
+.green {
+  background-color: white;
+}
+
+.green-dark {
+  background-color: white;
+}
+
+.green-darker {
+  background-color: white;
+}
+
+.js-navigation {
+  position: absolute;
+  width: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.js-btn-decale-droite,
+.js-btn-decale-gauche {
+  position: absolute;
+  left: 0; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.js-btn-decale-gauche {
+  left: initial;
+  right: 0;
+}
+
+.arrow {
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  transform: rotate(-45deg);
+}
+
+.js-btn-decale-gauche .arrow {
+  transform: rotate(135deg);
+}

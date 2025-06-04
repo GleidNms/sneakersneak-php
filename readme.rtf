@@ -1,0 +1,14 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red212\green213\blue214;\red5\green5\blue6;\red0\green0\blue0;
+}
+{\*\expandedcolortbl;;\cssrgb\c86275\c86667\c87059;\cssrgb\c1569\c1569\c1961\c7059;\cssrgb\c0\c0\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Proc\'e9dure pour installer le site web en local : 1. Installer le serveur local XAMPP ({\field{\*\fldinst{HYPERLINK "https://www.apachefriends.org/fr/index.html"}}{\fldrslt \cf4 \strokec4 https://www.apachefriends.org/fr/index.html}}). Il est aussi possible d'utiliser d'autres serveurs locaux, tels que MAMPP ou WAMPP. 2. Ouvrir en tant qu'administrateur XAMPP (dans l'explorateur de fichier, c:\\xampp\\xampp-control) 3. Une fois XAMPP ouvert, cliquer sur "Start" pour les Modules "Apache" et "MySQL". 4. Dans un navigateur, saisir l'URL "{\field{\*\fldinst{HYPERLINK "http://localhost/"}}{\fldrslt \cf4 \strokec4 http://localhost/}}", s\'e9lectionner le dossier "dashboard/", puis se rendre dans phpMyAdmin (base de donn\'e9es locale), ou plus rapidement, saisir l'URL "{\field{\*\fldinst{HYPERLINK "http://localhost/phpmyadmin/"}}{\fldrslt \cf4 \strokec4 http://localhost/phpmyadmin/}}". 5. Cr\'e9er une nouvelle base de donn\'e9es, y ins\'e9rer le document "bureau_galerie_latelier.sql". Les tables et leur contenu seront entr\'e9s dans la nouvelle base de donn\'e9es. 6. Dans l'explorateur de fichiers, "c:\\xampp", allez dans le dossier "htdocs", ins\'e9rer le dossier \'ab\'a0Gleid-abadjeck-sneakersneak\'a0\'bb contenant tous les fichiers relatifs au site web. 7. Dans le document "connexion.php", modifier l'acc\'e8s \'e0 la base de donn\'e9es de sorte \'e0 ce que le site soit li\'e9 \'e0 la base en serveur local. Ins\'e9rer une commande PHP du type : <?php $db =new PDO('mysql:host=localhost;dbname=NomBaseDeDonnees;port=3306;charset=utf8', 'root', ''); ?> 8. Retourner dans le localhost sur un navigateur et ouvrir le dossier contenant le site web. Si tout fonctionne, le site web s'affiche. 9. En local, le site web est accessible depuis l'URL : "{\field{\*\fldinst{HYPERLINK "http://localhost/timothe_bureau-resaweb-latelier/"}}{\fldrslt \cf4 \strokec4 http://localhost/}}\cf4 \strokec4 index.html\
+\
+http://abadjeck.butmmi.o2switch.site/index.php}
